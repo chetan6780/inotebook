@@ -23,6 +23,7 @@ function App() {
       msg: message,
       type: type
     });
+    
     setTimeout(() => {
       setAlert(null);
     }, 2100);
